@@ -43,6 +43,9 @@ require_relative('models/album')
     })
     album4.save()
 
+    album1.title = 'I Am... Sasha Fierce'
+    album1.update()
+
 
 binding.pry
 nil
