@@ -36,6 +36,13 @@ require_relative('models/album')
     })
     album3.save()
 
+    album4 = Album.new({
+        'title' => 'Hearts and Bones',
+        'genre' => 'Pop',
+        'artist_id' => artist3.id
+    })
+    album4.save()
+
 
 binding.pry
 nil
