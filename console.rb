@@ -22,7 +22,19 @@ require_relative('models/album')
     })
     album1.save()
 
+    album2 = Album.new({
+        'title' => 'Abbey Road',
+        'genre' => 'Rock',
+        'artist_id' => artist2.id
+    })
+    album2.save()
 
+    album3 = Album.new({
+        'title' => 'Graceland',
+        'genre' => 'Pop',
+        'artist_id' => artist3.id
+    })
+    album3.save()
 
 
 binding.pry
