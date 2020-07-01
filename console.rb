@@ -46,6 +46,9 @@ require_relative('models/album')
     album1.title = 'I Am... Sasha Fierce'
     album1.update()
 
+    artist2.name = 'The BEETLEZ'
+    artist2.update()
+
 
 binding.pry
 nil
