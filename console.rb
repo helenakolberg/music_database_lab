@@ -49,6 +49,12 @@ require_relative('models/album')
     artist2.name = 'The BEETLEZ'
     artist2.update()
 
+    artist2.name = 'The Beatles'
+    artist2.update()
+
+    album2.delete()
+    artist2.delete()
+
 
 binding.pry
 nil
